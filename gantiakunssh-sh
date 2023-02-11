@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Daftar kunci ssh yang tersimpan: "
+ls ~/.ssh/
+
+echo "Masukkan nama kunci ssh yang akan digunakan: "
+read ssh_key_name
+
+echo "Menggunakan kunci ssh $ssh_key_name..."
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/"$ssh_key_name"
+
+echo "Melakukan tes koneksi ke Github..."
+ssh -T git@github.com
+
+echo "Akun Github berhasil diganti."

@@ -19,6 +19,7 @@ get_gateway() {
 get_dns() {
   read -p "Enter DNS servers (e.g. 1.1.1.1 1.0.0.1): " dns
 }
+#
 
 # Install cloud-init if not already installed
 install_cloud_init() {

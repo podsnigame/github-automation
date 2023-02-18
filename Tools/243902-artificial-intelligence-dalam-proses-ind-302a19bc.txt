@@ -1,0 +1,796 @@
+Jurnal Teknologi Informasi DINAMIK Volume XIV, No.2, Juli 2009 : 98-104
+
+ISSN : 0854-9524
+
+ 
+
+Artificial Intelligence dalam Proses Industri Manufaktur
+
+Imam Husni Al Amin
+Fakultas Teknologi Informasi, Universitas Stikubank Semarang
+imam_husni@yahoo.co.id
+
+Abstrak
+
+Permasalahan sistim manufaktur dan perencanaan engineering (sistem pabrikasi dan masalah desing
+rancang-bangun) pada kenyataanya sangat kompleks dan sulit untuk diselesaikan melalui teknik
+konvensional. Dalam beberapa tahun terahir ini teknik kecerdasan buatan (Artificial Intelligence) atau
+disingkat AI mendapat perhatian dan mempunyai potensi sebagai teknik optimasi dalam industri
+
+manufaktur.
+
+Kata kunci: Algorithm Genetic, Simulated Annealing, Tabu Search, Algorithm Immune
+
+1. Pendahuluan
+
+Optimasi memainkan peran penting dalam
+system manufaktur dan problem engineering
+design. Seperti diketahui bahwa  optimasi
+berhubungan dengan sebuah persoalan yang
+dapat mempunyai nilai maksimum atau
+minimum dari sebuah fungsi dengan beberapa
+variable yang biasanya diikuti oleh pembatas
+kesamaan atau ketidaksamaan. Tujuanya
+memberikan penyelesaian yang efektif pada
+persoalan system manufaktur dengan utilisasi
+sumber yang efisien semuanya merupakan
+priority waktu.
+
+Optimalisasi bertujuan untuk meminimalkan
+biaya, kelebihan bahan baku, memaksimalkan
+keuntungan dari operasi manufaktur. Teknik
+matematik dapat diadopsi untuk memberikan
+penyelesaian yang baik berpedoman pada biaya,
+keuntungan atau waktu. Teknik optimasi telah
+banyak memberikan pengaruh pada lingkungan
+maufaktur, jumlah dan jenis  aplikasinya
+berkembang dengan cepat.
+
+Langkah pertama adalah memahami dan
+mengidentifikasi apa yang harus dioptimasi.
+Dalam banyak kasus dimana analisa matematik
+menjadi persoalan optimal, maka funsi tujuanya
+berbentuk persamaan matematik. Sekali
+persamaan tujuan telah didefinisikan maka
+beberapa urutan pembatas digunakan untuk
+mencapai tujuan tersebut, langkah selanjutnya
+adalah mengaplikasi urutan pembatas pada
+
+persamaan tujuan. Pembatas utama didalam
+fasilitas manufaktur adalah waktu. Aplikasi
+pembatas dapat menjadikan penyelesaian yang
+optimal dimungkinkan berbeda dari
+penyelesaian secara naluri. Hal ini dilihat bahwa
+persoalan cenderung menjadi komplek dan
+karenanya tinjauan selanjutnya optimasi tidak
+dapat memberikan penyelesaian terbaik. Prinsip
+utama yang dapat diikuti dalam penyelesaian
+persoalan optimasi adalah melalui fungsi tujuan
+dengan pembatas-pembatas system.
+
+Dasar dari optimasi berlandaskan pada
+pengertian kebenaran sifat dasar dari system
+manufaktur yang dalam istilah umum terdapat
+input, proses, dan output. Oleh karenanya
+system manufaktur berpusat pada waktu, dimana
+performansinya dapat ditingkatkan dengan
+mengatur fungsi tujuan seperti minimasi waktu
+dan maksimasi keuntungan. Namun demikian
+banyak persoalan system manufaktur dan
+perencanaan rekayasa (manufacturing systems
+and engineering design problem) dalam
+realitasnya sangat komplek dan sulit untuk
+diselesaikan dengan cara teknik konvensional.
+Dewasa ini teknik kecerdasan buatan (Artificial
+Intelligence) atau biasa disingkat AI telah
+dipertimbangkan dan mendapatkan perhatian
+yang berpotensi sebagai teknik optimasi yang
+baik. Tipe dari teknik optimasi ini adalah
+Genetic Algorithm, Simulated Annealing, Tabu
+Search dan Immunue Algotithm.
+
+ 
+
+98 Artificial Intelligence Dalam Proses Industri Manufaktur
+Jurnal Teknologi Informasi DINAMIK Volume XIV, No.2, Juli 2009 : 98-104
+
+ISSN : 0854-9524
+
+ 
+
+Aplikasi AI dalam manufaktur telah menjadi
+perhatian penelitian yang intensif dalam dua
+decade ini. Gelombang aplikasi AI menurut
+Mazaine (2000) disebabkan meningkatnya
+kemampuan komputer. Pembahasan ini adalah
+contoh teknik kecerdasan buatan sebagai alat
+optimasi dalam system manufaktur.
+
+2. Tipe Teknik Optimasi AI
+
+2.1. Algorithma Genetik
+
+Genetic Algorithm mempunyai prosedur
+dengan mengadaptasi proses seleksi alam.
+Proses Algoritma Genetik diawali dengan
+sebuah penyelesaian dengan pembentukan
+populasi secara acak. Setiap individu dalam
+populasi disebut dengan kromosom, yang
+mengambarkan suatu penyelesaian. Sebuah
+kromosom biasanya digambarkan sebagai suatu
+simbol string yang biasanya berbentuk biner,
+namun tidak selalu demikian. Kromosom-
+kromosom ini melakukan regenerasi melalui
+urutan iterasi. Selama regenerasi kromosom
+dievaluasi menggunakan ukuran yang disebut
+dengan nilai kekuatan (fitness value) (Gen dan
+Cheng 1997). Untuk membentuk  generasi
+selanjutnya kromosom baru disebut anak
+kromosom (offspring) diperoleh dengan cara
+mengawinkan dua kromosom dengan
+persilangan (Crossover) atau memodifikasi
+melalui operator mutasi. Genersi baru yang
+terbentuk dipilih mengikuti nilai kekuatan atau
+tetap mempertahankan populasi. Kromosom
+disebut layak untuk diterima menjadi
+penyelesaian optimal jika kromosom tersebut
+kuat dan memiliki peluang tinggi. Setelah
+beberapa generasi maka algoritma terpusat pada
+kromosom terbaik, yang dapat menyelesaikan
+suatu penyelesaian yang optimal. Aspek penting
+dari GA adalah inisialisasi populasi, representasi
+kromosom, __persilangan, mutasi, — seleksi,
+terminasi dan fungsi evaluasi. GA telah
+membuktikan sebagai optimalisasi yang efektif
+yang dapat memberikan penyelesaian terbaik
+atau mendekati optimal.
+
+2.2. Simulated Annealing
+
+Simulated Annealing — (SA) adalah
+penyelesaian secara heuristic untuk mencari
+penyelesaian optimal dari sebuah persoalan
+dengan beberapa kali melakukan pencarian lokal
+optimal, dan  secara dinamis melakukan
+
+penggantian secara probabilitas penyelesaian
+yang telah diterima namun lebih lemah dari
+penyelesaian yang lebih kuat.
+
+Teknik SA pertama kali diperkenalkan oleh
+Kirkpetriek (1982). Ide ini berdasarkan pada
+algoritma metropolis (Metropolis, 1953). Teknik
+SA melakukan proses simulasi pendinginan dari
+bahan padat dan keras yang dikenal dengan
+istilah Annealing. Walau demikian analogi ini
+dibatasi dengan gerak fisik dari molekul tanpa
+melibatkan kompleksitas system thermo
+dinamik. SA telah mendapatkan  perhatian
+karena dapat diaplikasikan pada lingkup yang
+luas suatu persoalan optimasi diskrit dan
+kontinyu.
+
+SA merupakan salah satu algoritma untuk
+optimisasi yang bersifat generik. Berbasiskan
+probabilitas dan mekanika statistik, algoritma ini
+dapat digunakan untuk mencari pendekatan
+terhadap solusi optimum global dari suatu
+permasalahan. Masalah yang membutuhkan
+pendekatan SA adalah  masalah-masalah
+optimisasi kombinatorial, di mana ruang
+pencarian solusi yang ada terlalu besar, sehingga
+hampir tidak mungkin ditemukan solusi eksak
+terhadap permasalahan itu. Publikasi tentang
+pendekatan ini pertama kali dilakukan oleh S.
+Kirkpatrick, C. D. Gelatt dan M. P. Vecchi,
+diaplikasikan pada desain optimal hardware
+komputer, dan juga pada salah satu masalah
+klasik ilmu komputer yaitu Traveling Salesman
+Problem.
+
+Annealing adalah satu teknik yang dikenal
+dalam bidang metalurgi, digunakan dalam
+mempelajari proses pembentukan kristal dalam
+suatu materi. Agar dapat terbentuk susunan
+kristal yang sempurna, diperlukan pemanasan
+sampai suatu tingkat tertentu, kemudian
+dilanjutkan dengan pendinginan yang perlahan-
+lahan dan terkendali dari materi tersebut.
+Pemanasan materi di awal proses annealing,
+memberikan kesempatan pada atom-atom dalam
+materi itu untuk bergerak secara bebas,
+mengingat tingkat energi dalam kondisi panas
+ini cukup tinggi. Proses pendinginan yang
+perlahan-lahan memungkinkan atom-atom yang
+tadinya bergerak bebas itu, pada akhirnya
+menemukan tempat yang optimum, di mana
+energi internal yang dibutuhkan atom itu untuk
+mempertahankan posisinya adalah minimum.
+
+ 
+
+ 
+
+Artificial Intelligence Dalam Proses Industri Manufaktur 99
+Jurnal Teknologi Informasi DINAMIK Volume XIV, No.2, Juli 2009 : 98-104
+
+ISSN : 0854-9524
+
+ 
+
+Simulated Annealing berjalan berdasarkan
+analogi dengan proses annealing yang telah
+dijelaskan diatas. Pada awal proses SA, dipilih
+suatu. solusi awal, yang merepresentasikan
+kondisi materi sebelum proses dimulai. Gerakan
+bebas dari atom-atom pada materi,
+direpresentasikan dalam bentuk modifikasi
+terhadap solusi awal/solusi sementara. Pada
+awal proses SA, saat parameter suhu (T) diatur
+tinggi, solusi sementara yang sudah ada
+diperbolehkan untuk mengalami modifikasi
+secara bebas.
+
+Kebebasan ini secara_ relatif diukur
+berdasarkan nilai fungsi tertentu yang
+mengevaluasi seberapa optimal solusi sementara
+yang telah diperoleh. Bila nilai fungsi evaluasi
+hasil modifikasi ini membaik (dalam masalah
+optimisasi yang berusaha mencari minimum
+berarti nilainya lebih kecil/downhill) solusi hasil
+modifikasi ini akan digunakan sebagai solusi
+selanjutnya. Bila nilai fungsi evaluasi hasil
+modifikasi ini memburuk, pada saat temperatur
+annealing masih tinggi, solusi yang lebih buruk
+(uphill) ini masih mungkin diterima. Dalam
+tahapan selanjutnya saat temperatur sedikit demi
+sedikit dikurangi, maka kemungkinan untuk
+menerima langkah modifikasi yang tidak
+memperbaiki nilai fungsi evaluasi semakin
+berkurang. Sehingga kebebasan untuk
+memodifikasi solusi semakin menyempit,
+sampai akhirnya diharapkan diperoleh solusi
+yang mendekati solusi optimal.
+
+2.3. Tabu Search
+
+Tabu Search (TS) adalah teknik yang
+mnggunakan petunjuk metal heuristic pencarian
+local untuk mengeksplorasi ruang penyelesaian
+yang dilakukan secara berulang. Seperti halya
+SA maka TS sanggup melakukan pencarian
+berulang (pencarian local). TS sebagai teknik
+intelligent pencarian yang berhubungan dengan
+beberapa pembatas sebagai petunjuk proses
+pencarian. Semula TS tidak banyak dikenal
+dibanding dengan AG dan SA, namun pada saat
+ini TS telah sukses diaplikasikan pada sejumlah
+persoalan dan mulai banyak dipakai, Aplikasi
+pemakaian TS telah dipublikasikan mulai tahun
+1990.
+
+Tabu search (TS)  pertama kali
+diperkenalkan oleh Glover sekitar tahun 1986.
+Glover menyatakan bahwa TS adalah salah satu
+
+prosedur metaheuristik tingkat tinggi untuk
+penyelesaian permasalahan optimisasi
+kombinatorial. TS ini dirancang untuk
+mengarahkan metode-metode lain (atau
+komponen proses TS itu sendiri) untuk keluar
+atau menghindari dari masuk dalam solusi
+optimal yang bersifat lokal. Kemampuan TS
+dalam menghasilkan solusi yang mendekati
+optimal telah dimanfaatkan dalam beragam
+permasalahan klasik dan praktis dari berbagai
+bidang mulai bidang penjadwalan hingga bidang
+telekomunikasi .
+
+Glover mengatakan bahwa prosedur TS ini
+dapat ditemukan dalam tiga pola (scheme)
+utama. Pola pertama adalah adanya penggunaan
+struktur memori  berbasiskan _ atribut-atribut
+fleksibel yang dirancang untuk membolehkan
+sebuah kriteria evaluasi dan hasil pencarian di
+masa lalu dieksploitasi lebih mendalam. Pola ini
+menjadikan TS berbeda dengan aplikasi lain
+yang menggunakan struktur memori yang rigid
+(kaku) atau tanpa menggunakan struktur memori
+(seperti simulated annealing). Pola kedua adalah
+penggunaan mekanisme atau kondisi yang dapat
+membatasi atau membebaskan suatu proses
+pencarian yang sedang berlangsung. Pola kedua
+ini dikenal sebagai mekanisme tabu restriction
+dan aspiration criteria. Pola ketiga adalah
+pelibatan suatu fungsi memori dengan rentang
+waktu yang berbeda yakni berupa memori
+jangka pendek (short term memory) dan memori
+jangka panjang (/ong term memory) untuk
+menjalankan __strategi intensifikasi dan
+diversifikasi dalam proses pencarian solusi.
+Strategi intensifikasi adalah strategi pencarian
+yang mengarahkan / mengfokuskan pencarian
+pada suatu area tertentu, sedangkan strategi
+diversifikasi adalah strategi pencarian yang
+mengarahkan pencarian pada area baru.
+
+Skema umum TS disajikan pada gambar di
+bawah ini. Pemilihan kandidat  terbaik
+didasarkan nilai fungsi tujuan. Pemeriksaan nilai
+fungsi tujuan lebih didahulukan  sebelum
+pemeriksaan status tabu. Apabila nilai fungsi
+tujuan sebuah kandidat lebih baik dari yang lain,
+maka kandidat tersebut berpotensi untuk
+diterima sehingga perlu diperiksa status tabunya.
+Urutan pemeriksaan nilai fungsi tujuan
+kemudian status tabu memberikan kemungkinan
+proses penyelesaian program yang lebih cepat.
+
+ 
+
+100 Artificial Intelligence Dalam Proses Industri Manufaktur
+Jurnal Teknologi Informasi DINAMIK Volume XIV, No.2, Juli 2009 : 98-104
+
+ISSN : 0854-9524
+
+ 
+
+Mulai dengan Sebuah Solusi Awal Saat Ini
+Solusi ini diperoleh dari tahap inisialisasi atau dari sebuah
+komponsn memori jangka pendek atau menengah
+
+Buat sebuah Daftar Kandidat Perpindahan (Solusi)
+(jika daftar itu dipakai, maka setiap perpindahan akan
+menghasilkan sebuah solusi baru dari solusi saat ini)
+
+  
+   
+  
+
+  
+   
+       
+   
+ 
+   
+   
+ 
+ 
+  
+     
+  
+
+    
+ 
+
+Periksa Level Aspirasi
+Apakah perpindshan itu
+memenuti kriteria aspirasi ?
+
+  
+   
+   
+   
+    
+
+Evaluasi Setiap Kandidat Solusi dan Pilihtah Kandidat Terbaik
+Evaluasil spakah kandidat solusi member nilal tujuan yang lebih balk
+dibanding kandidat isin yang telah dibuat sejauh ini ?
+{Penerimaan kandidat juga akan didasarkan pada
+tabu restrictions dan aspiration criteria).
+
+Kandidat berpotensi diterina
+
+Periksa Status Tabu
+Apakah kandidat tersebut tabu ?
+
+Periksa Daftar Kandidat
+Apakah masih terdapat sebuah “kemungkinan yang lebih
+baik" dari perpindahan yang tersisa (belum diperiksa} ?
+Atau haruskan daflar kandidat tersebut diperiuas 7
+
+Ambil Perpindahan Diterima Terbaik yang Terpilih
+
+ 
+  
+  
+
+Kandidet tidak
+berpatensi diterima
+
+ 
+   
+ 
+
+Perpindahan itu Diterima
+Calonkan sebagai kandidat
+diterima yang terbaik
+
+Kriteria Penghentian Prosedur
+Hentikan prosedur jika total Rerasi telah mencapai nilai
+tertentu, atau setelah sejumlah iterasi tertentu tidak lagi
+diperoleh perbsikan terhadap solusi terbaik.
+
+Hentikan Seluruh Prosedur atau
+Transfer ke Prosedur Diversifikas|
+
+Proses transfer hasil menandakan adanya
+strategi imensifikasi dan diversifikasi yang
+digunakan dalam sebuah komponen memori
+jangka menengah atau jangka panjang.
+
+Perbaharui Kondisi-Kondisi Penerimaan
+Lakukan pembaharuan pada Tabu
+Restrictions dan Aspiration Criteria
+
+ 
+
+Skema Tabu Search, Sumber: Glover (1990) dan Gendreau et.al (1998)
+
+Pemilihan kandidat solusi terbaik yang
+dilakukan oleh TS menggunakan prinsip global-
+best strategy (GB) bukan first-best strategy
+(FB). GB adalah strategi dimana algoritma akan
+mengganti solusi terbaik saat ini dengan solusi
+terbaik yang ada pada neighborhood. Adapun
+FB adalah strategi dimana algoritma akan
+mengganti solusi terbaik saat ini secara langsung
+jika solusi yang lebih baik ditemukan.
+
+Gendreau et.al (1998) menyatakan bahwa
+TS adalah pendekatan yang paling efektif untuk
+pemecahan masalah penentuan rute kendaraan.
+Kelebihan TS terletak pada struktur memori
+yang fleksibel. Struktur memori itu akan
+membolehkan  pencarian terus  dilakukan
+meskipun solusi yang diperoleh saat ini tidak
+ada yang lebih baik dari solusi terbaik yang telah
+diperoleh. Struktur memori tersebut juga mampu
+
+ 
+
+Artificial Intelligence Dalam Proses Industri Manufaktur 101
+Jurnal Teknologi Informasi DINAMIK Volume XIV, No.2, Juli 2009 : 98-104 ISSN : 0854-9524
+
+ 
+
+menjaga agar proses pencarian tidak jatuh pada
+lokal optimal yang pernah muncul pada
+pencarian sebelumnya. Adanya strukur memori
+fleksibel ini yang membedakan TS dengan
+branch and bound yang menggunakan struktur
+memori kaku atau simulated annealing yang
+tidak menggunakan struktur memori (Glover,
+1990)
+
+TS umumnya tidak menggunakan
+pembentukan kandidat solusi secara acak
+sebagaimana simulated annealing dan genetic
+algorithm. Pemilihan kandidat solusi dalam TS
+juga tidak dilakukan secara_ probabilistik
+sebagaimana ant colony — system, simulated
+annealing dan genetic algorithm. Karakteristik
+ini menjadikan solusi yang dihasilkan TS akan
+sama setiap kali dilakukan proses pencarian
+solusi terhadap suatu permasalahan. Karakterstik
+ini juga menjadi salah satu keunggulan TS
+dibanding ant colony system, — simulated
+annealing dan genetic algorithm.
+
+2.4. Algoritma Immune
+
+Algoritma Immune adalah algoritma evolosi
+berdasarkan pada system psikologi immune.
+System  psikologi immune mempunyai
+mekanisme yang mampu untuk mengeliminasi
+subtansi asing yang masuk dalam tubuh.
+Mekanisme kerja system immune pertama
+adalah mengenal subtasi asing sebagai antigen.
+Kemudian system immune  membentuk
+sekumpulan antibodi untuk mengeliminasi
+antigen-antigen tersebut. Antibodi-antibodi
+berinteraksi dengan antigen untuk memproduksi
+hasil yang berbeda. Mekanisme demikian
+sanggup untuk mengenal antibodi yang lebih
+baik pada eliminasi antigen dan memproduksi
+variasi-variasi lebih banyak antibodi tersebut
+pada generasi berikutnya. Proses ini dibentuk
+secara  rekursif sampai semua antigen
+tereliminasi. Untuk menigkatkan  efisiensi
+dari proses eliminasi maka mekanisme tersebut
+sanggup untuk mengidentifikasi antibodi-
+antibodi yang terlalu dominan. Antibodi-
+antibodi tersebut mengekang pertumbuhan
+antibodi yang dominan  sehingga _ terjadi
+perubahan tipe antibody yang dicoba untuk
+melawan antigen dalam pencarian eliminasi
+antigen.
+
+Analogi antara sistem kekebalan tubuh dan
+masalah optimasi adalah sebagai berikut.
+
+Respon dari sistem imune merepresentasikan
+solusi dan antigen merepresentasikan masalah
+yang harus diselesaikan. Lebih tepatnya, Sel B
+adalah sebagai agen-agen buatan yang
+menjelajahi dan mengeksplorasi lingkungan
+buatan. Patogen adalah sebagai masalah
+optimasi, dalam kasus ini, masalah optimasi
+digambarkan oleh antigen pada _patogen.
+Mekanisme seleksi positif dan seleksi negatif
+digunakan untuk mengontrol perbanyakan agen
+dengan mengeliminasi solusi yang buruk atau
+tidak berguna. Jadi, aturan seleksi positif dan
+seleksi negatif dapat dipertimbangkan sebagai
+mekanisme yang tidak hanya memilih solusi
+yang tepat, tetapi juga mengatur jumlah populasi
+agen yang tumbuh pada proses kloning .
+
+Tabel 1. Analogi Sistem Kekebalan Tubuh pada
+Masalah Optimasi
+
+ 
+
+Sistem Kekebalan Tubuh Masalah Optimasi
+
+ 
+
+ 
+
+ 
+
+Patogen Permasalahan
+Respon Tubuh Solusi
+Sel-B Agen pencari
+
+ 
+
+Menciptakan agen
+
+Clonal Selection ,
+pencari baru
+
+ 
+
+ 
+
+Penyeleksian agen yang
+Seleksi Positif dan Seleksi | buruk/tidak berguna
+Negatif untuk membunuh dirinya
+sendiri (apoptosis )
+
+ 
+
+ 
+
+Ingat bahwa pada sistem imune jumlah sel
+yang melawan antigen meningkat (melalui
+proses kloning / proliferasi) ketika antigen
+muncul di dalam tubuh, dan berkurang ketika
+antigen ini sudah dimatikan. Selama proses ini,
+sebuah sel merubah sifat tubuhnya seperti
+bergantinya waktu hidupnya. Jadi proses
+proliferasi meningkatkan jumlah agen yang
+dapat melawan antigen agar dapat menghambat
+dan menghancurkannya. Dengan kata lain,
+proliferasi berkorespondensi dengan pembuatan
+agen baru. Agen baru yang dibuat mempunyai
+struktur dan sifat yang mirip dengan induknya
+tetapi tidak sama persis untuk memungkinkan
+proses adaptasi pada _ sistem. Apoptosis
+berkorespondensi dengan program untuk
+mematikan sel. Mekanisme ini terjadi ketika sel
+tidak dapat beradaptasi untuk proses
+
+ 
+
+102 Artificial Intelligence Dalam Proses Industri Manufaktur
+
+ 
+Jurnal Teknologi Informasi DINAMIK Volume XIV, No.2, Juli 2009 : 98-104
+
+ISSN : 0854-9524
+
+ 
+
+pengeliminasian antigen. Jadi sel yang tidak
+berguna dihancurkan. Menggunakan sifat dasar
+dari sistem kekebalan tubuh yaitu clonal
+selection melalui mekanisme seleksi positif dan
+seleksi negatif, jumlah agen di dalam sistem
+diatur secara dinamik untuk mencari solusi
+optimal pada masalah yang diberikan. Faktanya,
+agen yang diprediksi tidak cocok dapat
+dimatikan sebelum dilakukan kloning pada agen
+tersebut.
+
+3. Applikasi Dalam Sistem Manufaktur
+3.1. Applikasi AG
+
+Beberapa penelitian dengan AG sebagai alat
+optimasi pada ruang lingkup sistem manufaktur
+dapat diikuti pada penelitian Maridou dan
+Pardolos (1997) yang telah menggunakan AG
+untuk optimasi fasilitas dan tata letak pabrik.
+Baskoro (1999) mendemokan aplikasi AG
+menyelesaikan persoalan konseptual traveling
+salesman problem. Hasan (2000) memberikan
+teknik pencarian identifikasi dari optimalisasi
+urutan operasi dalam lingkungan perencanaan
+dinamis menggunakan aplikasi AG.
+
+Khoo et.al... (2000) telah menggunakan
+prototype GA-enhanced multy-obyektive
+scheduler untuk system manufaktur. Sebuah
+toolbox penjadwalan model untuk job shop, flow
+shop and cellular manufakturing, pembentukan
+part dari prototype scheduler, dan pembangunan
+penjadwalan yang mentransformasikan near-
+optimal solution sampai pada penjadwalan shop
+floor yang valid. System prototype telah
+divalidasi untuk berbagai macam kasus dengan
+dan tanpa batasan dan multi fungsi obyektif
+bersama-sama_ secara  serempak  dilakukan
+dengan pembatas.
+
+3.2. Applikasi SA
+
+Chen et al., (1995) Mengembangkan SA
+berbasis heuristic untuk pembentukan - sel
+manufaktur. Mereka mengaplikasi SA berbasis
+heuristic untuk beberapa contoh popular pada
+persoalan pembentukan sel manufaktur. Hasil
+dari optimalisasi memperlihatkan bahwa SA
+berbasis heuristic memberikan hasil sangat baik
+pada semua contoh yang diberikan. Selain itu
+SA berbasis heuristic juga juga memberikan
+beberapa keuntungan yang hampir tidak dimiliki
+oleh algoritma lain.
+
+Pada penelitian sebelumnya Adil et al.,
+(1997) telah mempelajari assignment allocation
+dan algoritma SA untuk pembentukan sel. Pada
+penelitian ini telah dibangun sebuah model
+nonlinear mathematical programming untuk
+pembentukan sel manufaktur yang
+mengidentifikasi part families dan kelompok
+mesin secara serentak tanpa adanya intervensi
+secara manual atau pertimbangan subyektif.
+
+Fink and Fob (2003) telah menyelesaikan
+persoalan penjadwalan continous flow-shop
+dengan meta heuristic (simulated annealing and
+tabu search). Persoalan yang dipertimbangkan
+disini adalah mencari permutasi urutan jobs
+yang akan diproses pada sejumlah mesin yang
+dibatasi proses pada setiap job harus kontinyu
+sesuai dengan tujuan minimasi total waktu
+proses (flow-time).
+
+3.3. Applikasi TS
+
+Dengiz and alabas (2000) telah
+menggunakan algoritma TS dalam
+penggabungan dengan model simulasi JIT untuk
+mencari optimum jumlah kanban. Lutz (1995)
+juga telah membangun model simulasi proses
+manufaktur dan menggunakan TS sebagai
+prosedur heuristic, untuk mengoptimalisasi
+buffer dan ukuran penyimpanan dalam system
+manufaktur, selain itu juga digunakan regresi
+metamodel untuk mengoptimalisasi batch pada
+lini perakitan (Printed Circuit Board).
+
+Pada penelitian lain juga telah digunakan
+fungsi penalti dan TS untuk menyelesaikan
+persoalan dengan biaya sel tetap yaitu sebuah
+pendekatan integrasi untuk pembentukan sel
+manufaktur dengan biaya tetap. Penyelesaian
+pada persolan ini tidak hanya pada persoalan
+pembentukan sel tapi termasuk juga keputusan
+set-up sel. Sebuah model mixed integer non
+linear programming diformulasikan untuk
+menyelesaikan persoalan. Persoalan yang sukar
+diselesaikan (non linear programming hard)
+membuat perhitungan penyelesaian  secara
+langsung terhalang untuk aplikasi yang nyata.
+Sebuah algoritma heuristic telah dikembangkan
+untuk meyelesaikan persoalan efisiensi berbasis
+model dual analis. Dalam hal ini TS telah
+digunakan untuk mencari persoalan optimum
+dan sub optimum.
+
+Chen and Cao mengajukan penjadwalan job-
+shop dengan alternative proses, perluasan dari
+
+ 
+
+Artificial Intelligence Dalam Proses Industri Manufaktur 103
+Jurnal Teknologi Informasi DINAMIK Volume XIV, No.2, Juli 2009 : 98-104
+
+ISSN : 0854-9524
+
+ 
+
+penjadwalan job-shop dimana job routing secara
+langsung membentuk grafik siklus yang dapat
+memodelkan partial orders dari operasi dan
+mengandung sekumpulan alternative sub grafik
+setiap operasi. Dua algoritma heuristic telah
+dibangun yaitu Tabu Search dan Genetic
+Algorithms. Kedua heuristic berbasis kepada
+dua subrautes yang umum = yaitu — satu
+dimasukkan pada sebuah kumpulan operasi
+sampai pada jadwal terpisah (partial), operai ini
+menekankan pada efisiensi teknik insersi, yang
+kedua untuk meningkatkan penjadwalan dengan
+alternative fixed routing, operasi ini untuk
+menyamakan metode standar untuk
+penjadwalan.
+
+3.4. Aplikasi Algoritma Immune
+
+Seperti ketiga aplikasi Artificial Intelligence
+diatas, maka aplikasi Algoritma Immune pada
+saat ini mulai populer untuk digunakan sebagai
+alat optimasi dalam system manufaktur.
+Alisantoso, et.al., telah membuktikan aplikasi
+algoritma ini pada system manufaktur.
+Algoritma ini diaplikasi pada penjadwalan flow
+shop pembuatan fleksibel PCB. Hasil yang
+dicapai dibandingkan dengan algoritma genetic,
+ternyata algoritma immune  memberikan
+performansi lebih baik, dimana nilai standarisasi
+yang diperoleh lebih kecil. Disamping itu
+diperoleh hasil bahwa algoritma genetic
+cenderung konvergensinya premature, hal ini
+disebabkan mendominasinya — penyelesaian
+terbaik. Analisis selanjutnya menyatakan bahwa
+algoritma immune memperlihatkan _ hasil
+penurunan jadwal lebih mempunyai alasan dan
+logika.
+
+4. Kesimpulan
+
+Sejak beberapa decade ini, AI telah
+dijadikan alat yang sangat berguna untuk
+menyelesaikan persoalan optimasi dalam system
+manufaktur. Dalam tulisan diatas
+dipresentasikan empat teknik-teknik AI yaitu
+Genetik Algorithms, Simulated Annealing, Tabu
+Search dan Algoritma Immune. Aplikasi dari
+teknik-teknik tersebut dalam system manufaktur
+akan menjadi lebih luas pada intelligent design,
+quality management dan intelligent control. Hal
+ini disebabkan karena kemampuan komputer
+yang semakin meningkat.
+
+Daftar Pustaka
+
+[1] Adil. G. Kumar; Rajamani, Divakar, 1997,
+“Assingment Allocation and Simulated
+Annealing Algorithms for Cell
+Formation’, vol 29, nol.
+
+[2] Cao D. and Chen M, 2003, “Using Penalty
+Function and Tabu Search to Selve Cell
+Formation Problems with Fixed Cell
+Cost”, computer & operations Research
+vol 31.
+
+[3] Chairul S, Azmi Hassan, 2000,
+“Penentuan Ruting Optimal Penjadwalan
+Produksi pada System ~Manufaktur
+Bertingkat dengan Pendekatan Algoritma
+Genetik”, Jurnal Teknik dan Manajemen
+Industri ITB , vol 19.
+
+[4] Dengiz B. and Alabas C, 2000,
+“Computer Simulation of a PCB
+Production Line” Journal of Production
+Research, vol 33.
+
+ 
+
+104 Artificial Intelligence Dalam Proses Industri Manufaktur
+

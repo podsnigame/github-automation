@@ -1,0 +1,892 @@
+ISBN : 978-623-7297-39-0
+
+IMPLEMENTASI ARTIFICIAL INTELLIGENCE PADA
+SYSTEM MANUFAKTUR TERPADU
+
+M. Sobron Yamin Lubis
+Bidang Teknik Manufaktur, Prodi Teknik Mesin
+Jurusan Teknologi Industri, Fakultas Teknik — Universitas Tarumanagara
+Jl.Letjend.S.Parman No.1 Jakarta 11400
+
+sobronl@ft.untar.ac.id
+
+Abstrak
+Artificial Intelligence atau kecerdasan buatan adalah sistem komputer yang mampu melakukan tugas-tugas yang
+biasanya membutuhkan kecerdasan manusia. Proses yang terjadi dalam Artificial Intelligence mencakup
+learning, reasoning, dan self-correction. Proses ini mirip dengan manusia yang melakukan analisis sebelum
+memberikan keputusan. Artificial Intelligence adalah teknologi yang telah banyak diadopsi di era industri 4.0
+ini. Artificial Intelligence mampu menghubungkan setiap perangkat, hingga seseorang dapat mengotomatisasi
+semua perangkat tanpa harus berada di lokasi. Lebih dari itu, saat ini telah banyak mesin yang dapat
+menginterprestasi suatu kondisi atau kejadian tertentu dengan bantuan Artificial Intelligence. Proses yang
+terjadi dalam Artificial Intelligence mencakup learning, reasoning, dan self-correction. Implementasi AI pada
+pengerjaan manusia adalah memperoleh hasil kinerja optimal dengan waktu proses yang cepat dan hasil yang
+
+maksimal.
+
+Kata-Kata Kunci : Artificial Intelligence, Proses, Implementasi, Manufaktur,
+
+I. PENDAHULUAN
+
+Artificial Intelligence atau Al merupakan salah
+satu teknologi yang sedang populer saat ini. Berbagai
+bidang industri sudah memanfaatkan teknologi
+tersebut, mulai dari kesehatan, keuangan, dan lain-
+lain.
+
+Tidak hanya itu saja, Artificial Intelligence
+juga sudah banyak diterapkan di kehidupan sehari-
+hari. Artificial Intelligence banyak membantu dalam
+berkomunikasi, menemukan lokasi.
+
+Artificial Intelligence atau kecerdasan buatan
+adalah sistem komputer yang mampu melakukan
+tugas-tugas yang biasanya membutuhkan kecerdasan
+manusia. Teknologi ini dapat membuat keputusan
+dengan cara menganalisis dan menggunakan data
+yang tersedia di dalam sistem. Proses yang terjadi
+dalam Artificial Intelligence mencakup Jearning,
+reasoning, dan self-correction. Proses ini mirip
+dengan manusia yang melakukan analisis sebelum
+memberikan keputusan.
+
+Menurut John Mc Carthy, 1956, Artificial
+Intelligence adalah untuk mengetahui dan
+memodelkan proses—proses berpikir manusia dan
+mendesain mesin agar dapat menirukan perilaku
+manusia. Cerdas, berarti memiliki pengetahuan
+
+ditambah pengalaman, penalaran (bagaimana
+membuat keputusan dan mengambil tindakan), moral
+yang baik.
+
+Keinginan untuk mencapai_ situasi yang
+memberikan kemampuan kepada perusahaan agar
+tetap tumbuh dan berkembang serta mampu
+menghasilkan keuntungan yang wajar dimotivasi
+oleh kekwatiran yang sering menghantui pikiran para
+pebisnis sechubungan dengan perubahan dinamis pada
+lingkungan industry yang memasuki revolusi Industri
+4.0. Pada era ini permintaan terhadap produk yang
+
+SEMNASTEK UISU 2021
+
+sesuai dengan keinginan konsumen dan dapat di
+peroleh dengan waktu yang relative singkat manjadi
+tema utama dalam pengembangan produk. Factor
+biaya per unit minimum dan mutu produk yang
+tinggi tidak lagi memiliki kekuatan untuk
+membangun daya saing. Daya saing ditentukan oleh
+kinerja dalam pengiriman , kemampuan memenuhi
+keinginan konsumen dan kualitas keterlibatan
+dalam penanganan isu-isu lingkungan ( Sukaria,
+2008).
+
+1.1 Latar Belakang
+
+Dengan berkembangnya teknologi dewasa ini,
+menuntut hasil produksi yang tinggi dan dengan
+waktu yang relatif singkat, disamping itu tingkat
+akurasi produk yang tinggi sesuai dengan produk
+yang direncanakan. Untuk itu maka diperlukan
+suatu system manufaktur yang mampu melakukan
+proses kerja tersebut dengan menerapkan prinsip-
+prinsip kecerdasan buatan.
+
+1.2 Maksud dan Tujuan
+
+Penerapan AI dalam system manufaktur
+terpadu. bermaksud untuk dapat melakukan
+pekerjaan-pekerjaan dalam pembuatan produk agar
+dihasilkan produk sesuai dengan waktu yang
+direncanakan dan jumlah produksi yang tinggi
+dengan tanpa adanya pengawasan , mesin dapat
+beroperasi 24 jam dan mampu mendeteksi mandiri
+terhadap apa yang dilakukan.
+
+II.LPENGERTIAN
+INTELEGENCY
+
+ARTIFFIAL
+
+Manusia cerdas (pandai) dalam menyelesaikan
+permasalahan karena manusia mempunyai
+pengetahuan dan  pengalaman. Pengetahuan
+
+1
+ISBN : 978-623-7297-39-0
+
+diperoleh dari belajar. Semakin banyak bekal
+pengetahuan yang dimiliki tentu akan lebih mampu
+menyelesaikan permasalahan. Tapi bekal
+pengetahuan saja tidak cukup, manusia juga diberi
+akal untuk melakukan  penalaran, mengambil
+kesimpulan berdasarkan pengetahuan dan
+pengalaman yang dimiliki.
+
+Tanpa memiliki kemampuan untuk menalar
+dengan baik, manusia dengan segudang pengalaman
+dan pengetahuan tidak akan dapat menyelesaikan
+masalah dengan baik. Demikian juga dengan
+kemampuan menalar yang sangat baik, namun tanpa
+bekal pengetahuan dan pengalaman yang memadai,
+manusia juga tidak akan bisa menyelesaikan masalah
+dengan baik.
+
+Demikian juga agar mesin bisa cerdas
+(bertindak seperti dan sebaik manusia) maka harus
+diberi bekal pengetahuan, sehingga mempunyai
+kemampuan untuk menalar. Untuk membuat aplikasi
+kecerdasan buatan ada 2 bagian utama yang sangat
+dibutuhkan:
+
+1. Basis Pengetahuan (knowledge base), bersifat
+fakta-fakta, teori , pemikiran dan hubungan antar
+satu dengan yang lainnya.
+
+2. Motor Inferensi (inference engine), kemampuan
+menarik kesimpulan berdasarkan pengetahuan
+dan pengalaman.
+
+Pada 1950-an, Alan Turing, seorang pionir
+Artificial Intelligence dan ahli matematika Inggris
+melakukan percobaan. Turing (turing test) yaitu
+sebuah komputer melalui terminalnya ditempatkan
+pada jarak jauh. Di ujung yang satu ada terminal
+dengan software Artificial Intelligence dan di ujung
+lain ada sebuah terminal dengan seorang operator.
+Operator itu tidak mengetahui kalau di ujung
+terminal lain dipasang software Artificial Intelligence.
+
+Mereka berkomunikasi di mana terminal di
+ujung memberikan respon terhadap serangkaian
+pertanyaan yang diajukan oleh operator. sang
+operator itu mengira bahwa ia sedang berkomunikasi
+dengan operator lainnya yang berada pada terminal
+lain. Turing beranggapan bahwa jika mesin dapat
+membuat seseorang percaya bahwa dirinya mampu
+berkomunikasi dengan orang lain, maka dapat
+dikatakan bahwa mesin tersebut cerdas (seperti
+layaknya manusia).
+
+Perbedaan Artificial Intelligence dan Natural
+Intelligence
+
+Kelebihan Artificial Intelligence adalah:
+
+1. Lebih bersifat permanen. Kecerdasan alami bisa
+berubah karena_ sifat manusia  pelupa.
+Kecerdasan buatan tidak berubah selama sistem
+komputer & program tidak mengubahnya.
+
+2. Lebih mudah diduplikasi &  disebarkan.
+Mentransfer pengetahuan manusia dari satu
+orang ke orang lain membutuhkan proses yang
+sangat lama & keahlian tidak akan pernah dapat
+diduplikasi dengan lengkap. Jadi  jika
+pengetahuan terletak pada suatu sistem
+
+komputer, pengetahuan tersebut dapat disalin
+dari komputer tersebut & dapat dipindahkan
+dengan mudah ke komputer yang lain.
+
+3. Lebih murah. Menyediakan layanan komputer
+akan lebih mudah & murah dibandingkan
+mendatangkan seseorang untuk mengerjakan
+sejumlah pekerjaan dalam jangka waktu yang
+sangat lama. Bersifat konsisten karena
+kecerdasan buatan adalah bagian dari
+teknologi komputer sedangkan kecerdasan
+alami senantiasa berubah-ubah.
+
+4. Dapat didokumentasi. Keputusan yang dibuat
+komputer dapat didokumentasi dengan mudah
+dengan cara melacak setiap aktivitas dari
+sistem tersebut. Kecerdasan alami sangat sulit
+untuk direproduksi.
+
+5. Cara kerja lebih cepat.
+
+6. Hasil lebih baik.
+
+Sementara, kelebihan Natural Intelligence yaitu:
+
+1. Kreatif: manusia memiliki kemampuan untuk
+menambah pengetahuan, sedangkan pada
+kecerdasan  buatan untuk menambah
+pengetahuan harus dilakukan melalui sistem
+yang dibangun.
+
+2. Memungkinkan orang untuk menggunakan
+pengalaman secara langsung. Sedangkan pada
+kecerdasan buatan harus bekerja dengan input-
+input simbolik.
+
+3. Pemikiran manusia dapat digunakan secara
+luas, sedangkan kecerdasan buatan sangat
+terbatas.
+
+Tantangan di Sektor Industri dan Pemerintah
+1. Sektor Industri
+
+Di era industri 4.0, banyak perusahaan
+mencari tahu bagaimana mengadopsi suatu platform
+Artificial Intelligence untuk diterapkan dalam
+proses bisnis mereka. Strategi pengintegrasian
+Artificial Intelligence, seluruhnya dimulai dari
+akuisisi data, desain struktur sistem, hingga mencari
+algoritma atau metode yang membantu
+menyelesaikan permasalahan yang kompleks di
+dalam proses produksi dari awal hingga akhir pada
+industri, khususnya industri manufaktur.
+
+Pada kenyataannya teknologi ini masih terlalu
+kompleks dan membutuhkan penelitian dan usaha
+yang cukup berat. Ditambah dengan mekanisme
+algoritma yang secara mendasar tidak hanya di titik
+beratkan pada aspek engineering saja, tetapi juga
+memerlukan aspek science. Lebih jauh lagi,
+penggunaan IT untuk mengubah perusahaan
+tradisional menjadi perusahaan yang mengadopsi
+tren teknologi di era industri 4.0 membutuhkan
+lebih dari sekedar membangun situs web, sistem
+informasi, atau aplikasi mobile.
+
+Dengan menggunakan AI atau machine
+learning beberapa permasalahan yang tidak dapat
+diselesaikan hanya dari sisi engineering akan dapat
+terselesaikan. Predictive modelling sebagai
+contohnya, saat ini telah banyak digunakan oleh
+
+SEMNASTEK UISU 2021
+perusahaan-perusahaan e-commerce besar_ seperti
+amazon, alibaba, dan perusahaan raksasa lainnya.
+
+2. Sektor Pemerintah
+
+Industri 4.0 dapat membantu —pemerintah
+meningkatkan perekonomian yang bersifat lebih
+terbuka, fleksibel, berbasis pengetahuan dan
+keterampilan, dapat mempromosikan pasar lokal
+pada lingkup perdagangan internasional,
+meningkatkan efisiensi dan efektivitas pada sistem
+perawatan kesehatan dan sosial dan masih banyak
+potensi keuntungan lainnya.
+
+Terdapat sisi lain dari industri 4.0 di mana
+pemerintah semakin tidak berdaya menghadapi
+megacorporations. Masyarakat, baik secara individu,
+corporation, atau komunitas yang berkepentingan,
+akan menggunakan tren teknologi ini untuk mencari
+otonomi yang lebih besar.
+
+Sebagai contoh, teknologi blockchain dapat
+mendorong pendekatan baru untuk perbankan dan
+keuangan pribadi. Memungkinkan seseorang memilih
+untuk berdagang satu dengan yang lain dalam mata
+uang tidak resmi seperti bitcoin daripada mata uang
+yang dijalankan oleh bank sentral. Sehingga jika
+pemerintah terlalu lambat untuk mengadopsi
+teknologi baru di era industri 4.0, mereka akan gagal
+meningkatkan layanan yang diperlukan untuk
+menjaga stabilitas layanan publik, dan menurunkan
+reputasi pemerintah.
+
+Dalam hal ini berarti pembuat kebijakan harus
+adaptif terhadap lingkungan baru yang cepat
+mengalami perubahan, melakukan evaluasi internal
+sehingga dapat memahami secara utuh apa yang
+harus dikelola, serta diperlukan tenaga Chief
+Information Officer (CIO) yang cukup untuk dapat
+berperan penuh dalam hal ini.
+
+Implementasi Artificial Intelligence
+
+Artificial Intelligence adalah teknologi yang
+telah banyak diadopsi di era industri 4.0 ini. Artificial
+Intelligence mampu  menghubungkan _ setiap
+perangkat, hingga seseorang dapat mengotomatisasi
+semua perangkat tanpa harus berada di lokasi. Lebih
+dari itu, saat ini telah banyak mesin yang dapat
+menginterprestasi suatu kondisi atau kejadian tertentu
+dengan bantuan Artificial Intelligence.
+
+Salah satunya adalah kamera cerdas pendeteksi
+kepadatan volume kendaraan di jalan raya
+menggunakan teknologi Deep Learning Neural
+Network, yang telah diimplementasikan pada
+beberapa Pemerintah Daerah Kabupaten dan Kota
+dalam mendukung program Smart City.
+
+Pada sektor industri, banyak juga yang telah
+mengotomatisasi mesin produksi dan manufaktur
+menggunakan robot dan Artificial Intelligence,
+sehingga Industri 4.0 meningkatkan daya saing
+melalui perangkat cerdas. Setiap entitas yang mampu
+menguasai teknologi ini, maka ia memiliki
+keunggulan kompetitif (competitive advantage).
+
+Namun di tengah perkembangan industri 4.0 yang
+cukup masif pemerintah harus bergerak cepat dalam
+
+SEMNASTEK UISU 2021
+
+ISBN : 978-623-7297-39-0
+
+mengadopsi platform ini, jika tidak, mereka akan
+menurunkan efisiensi proses bisnis untuk menjaga
+stabilitas layanan publik.
+
+Oleh sebab itu, diperlukan keilmuan dan
+pemahaman yang benar bagi pemerintah dalam
+menghadapi era Industri 4.0, di mana Chief
+Information Officer (CIO) dapat mengambil
+peranan penting dalam memberikan dukungan yang
+didasari atas keilmuan mereka terkait tren teknologi
+industri 4.0, khususnya Artificial Intelligence yang
+telah banyak diadopsi di berbagai sektor.
+
+IH. MANUFAKTURING
+
+1. Proses manufaktur
+
+Manufakturing diartikan sebagai perangkat
+kegiatan dan operasi yang saling berhubungan yang
+mencakup desain, pemilihan material, perencanaan,
+produksi, penjaminan mutu, manajemen dan
+pemasaran.
+
+Manufaktur merupakan salah satu elemen
+penting dari pembangunan berkelanjutan karena
+memproduksi barang-barang yang diperlukan untuk
+memenuhi kebutuhan masyarakat. Manufaktur
+adalah sistem input-output, di mana sumber daya
+adalah input dan ditransformasikan melalui proses
+manufaktur menjadi produk atau produk setengah
+jadi (Sangwan dan Mittal, 2015).
+
+Pada Sebagian besar, perusahaan _ tidak
+terkecuali perusahaan Industri manufacturing,
+tujuan jangka Panjang pada umumnya ditekankan
+pada tercapainya suatu situasi bahwa perusahaan
+bersangkutan tetap tumbuh dan berkembang dan
+mampu menghasilkan keuntungan yang wajar.
+
+2. Computer Integrated Manufacturing
+
+Computer-integrated manufacturing (CIM)
+merupakan sebuah istilah yang digunakan untuk
+mendeskripsikan secara komplit mengenai otomasi,
+perencanaan proses manufaktur, dengan semua
+proses yang difungsikan dibawah kontrol komputer
+dan informasi digital yang dilakukan dalam suatu
+sistem bersama-sama.
+
+Sebuah sistem bisnis yang terintegrasikan oleh
+sebuah data base secara umum).
+Computer-integrated manufacturing (CIM) adalah
+manufaktur yang dengan menggunakan pendekatan
+komputer untuk mengontrol dan mengintegrasikan
+seluruh proses produksi. Integrasi ini
+memungkinkan proses setiap individu atau
+departemen untuk melakukan pertukaran informasi
+dengan satu sama lain dan melakukan tindakan.
+Melalui Computer-integrated manufacturing (CIM)
+ini, sistem manufaktur yang dilakukan oleh suatu
+perusahaan dapat menjadi lebih cepat dengan
+meminimalisasi kesalahan. Walupun  tujuan
+utamanya adalah meningkatkan kemampuan untuk
+membuat proses manufaktur secara otomatis,
+biasanya CIM bergantung pada proses kontrol
+berdasarkan kondisi atau waktu nyata dari yang
+diterima melalui sensor. Jadi, CIM ini juga dikenal
+sebagai desain yang fleksibel untuk manufaktur.
+ISBN : 978-623-7297-39-0
+
+Dalam CIM ini yang merupakan jantungnya
+adalah Computer Aided Design (CAD) dan
+Computer Aided Manufacture (CAM). Adapun
+CAD/CAM ini juga memiliki banyak manfaat dalam
+sistem manufaktur. Sistem yang ada pada CAD/CAM
+tersebut sangat penting untuk mengurangi cycle time
+dalam sebuah organisasi. CAD memudahkan para
+desainer untuk menciptakan gambar yang bersifat
+elektronik yang dapat dibuat menjadi dua dimensi
+maupun dengan tiga dimensi dan dapat diputar untuk
+dilihat keseluruhan sudut pandang. Software program
+ini juga menyediakan fasilitas yang bisa menganalisa
+dan melakukan percobaan terhadap desain tersebut
+sebelum dilakukan realisasi. Terlebih dari itu,
+software pada CAM juga menyediakan fasilitas
+menampilkan alur proses machining yang akan
+dilakukan pada produk yang telah di desain.
+Penggunaan CAD/CAM yang juga memiliki peran
+penting adalah sebagai database record. Dangan
+adanya database yang jelas atas produk yang
+diprouksi, maka untuk selanjutnya ketika terdapat
+sekecil masalah terhadap proses produksi bisa
+secepatnya diidentifikasi.
+
+Suatu perusahaan yang menggunaakan atau
+mengaplikasikan CIM ini memiliki banyak manfaat.
+
+Management decides to make a product
+” ,
+
+   
+ 
+  
+ 
+   
+  
+
+rated manufacturing (Cit)
+
+ 
+
+ASRS and AGVs
+mave incoming materials equipment
+and assemble co
+
+CIM ini merupakan suatu bentuk otomasi yang
+komplit pada fasilitas manufaktur di  suatu
+perusahaan. Seluruh fungsi dalam sistem
+manufaktur tersebut berada di bawah kontrol
+komputer. Fungsi kontrol tersebut dilakukan mulai
+dari proses  desain, pembuatan prototype,
+pengontrolan serta memberikan penentuan terhadap
+efisiensi yang lebih besar (menghitung biaya,
+metode produksi, jumlah yang  diproduksi,
+penyimpanan dan _ pendistribusian), kebutuhan
+material, permesinan yang dimulai dari CAM,
+quality control, produk di asembli dengan robot,
+distribusi produk, dan memperbarui akuntansi
+keuangan.
+
+CIM merupakan filosofi menejemen, dimana
+seluruh fungsi yang terdapat didalam proses
+perencanaan hingga proses manufaktur
+dirasionalisasikan secara_ terintegrasi dengan
+penerapan teknologi komputer, komunikasi dan
+informasi. (R. Widodo).
+
+Dari definisi diatas terlihat bahwa anggota
+elemen CIM adalah proses perencanaan dan proses
+manufaktur yang saling melengkapi satu sama lain.
+
+———— Computer-
+
+Integrated
+Manufacturing
+(CIM)
+
+Material flows
+
+ 
+
+Information flaws
+
+product
+
+Gambar 1. Computer Integrated Manufacturing System
+
+Inovasi telah menjadi kekuatan pendorong
+utama dalam pengembangan industri pabrik modern.
+Dengan berlalunya setiap era, teknologi baru selalu
+diperkenalkan ke dunia industri, sehingga mau tidak
+mau, pabrik pun juga terus bertransformasi mengikut
+perkembangan jaman. Ketika teknologi berubah,
+demikian juga fasilitas-fasilitas maupun mesin-mesin
+pabrik juga ikut berubah, Meskipun tidak mungkin
+untuk memprediksi secara penuh seperti apa pabrik
+di masa depan, dari trend yang ada saat ini, kita akan
+dapat melintas waktu untuk memperkirakan kira-kira
+akan jadi seperti apa?
+
+4
+
+1. Data Real Time dan Konstan
+
+Dengan menggunakan sensor, pabrik di masa
+depan akan dapat memantau dan melaporkan segala
+sesuatu mulai dari mesin individual, seluruh sistem
+lini produksi hingga faktor lingkungan di pabrik.
+Data ini kemudian akan disimpan di cloud dan
+dianalisis menggunakan perangkat lunak khusus.
+
+2.Cloude Computing
+
+Pabrik masa depan akan terhubung di hampir
+setiap cara, memungkinkan untuk operasi tanpa
+batas dalam berbagai skenario:
+
+SEMNASTEK UISU 2021
+o Cloud Computing — Memanfaatkan teknologi
+cloud akan memungkinkan _ perusahaan
+mengakses data kapan saja, di mana _ saja.
+Karena semua informasi akan tersedia untuk
+semua orang, dan tidak terikat pada mesin fisik
+tertentu, keputusan dapat dibuat terlepas dari
+dimana lokasi pembuat keputusan itu berada.
+
+o Industrial Internet of Things (HoT) — Data juga
+akan dikomunikasikan ke berbagai bagian
+pabrik itu sendiri. Misalnya, sensor dapat
+mendeteksi beberapa jenis bahaya yang
+memerlukan evakuasi segera. Sensor akan
+mengomunikasikan informasi ini ke sistem
+gedung, yang akan merespons dengan membuat
+area karantina, membunyikan alarm, atau
+mengingatkan pekerja di berbagai bagian
+gedung.
+
+4. — Sistim Digital
+Pabrik masa depan akan terhubung di hampir
+
+setiap cara, memungkinkan untuk operasi tanpa batas
+
+dalam berbagai skenario:
+
+e Robotic Process Automation — tugas back-office
+yang monoton seperti manajemen pengumpulan
+data dan pemrosesan pesanan akan ditangani
+oleh software bot perangkat lunak otomatisasi
+proses robot, yang akan melakukan segala
+pekerjaan dengan cepat dan minim kesalahan.
+
+o Analisis data — Perangkat lunak khusus akan
+mengatur dan mengevaluasi semua data yang
+dikompilasi melalui sensor dan sistem IloT
+dengan tujuan untuk menciptakan informasi
+dasar yang dapat ditindaklanjuti. Ini kemudian
+akan digunakan di berbagai lini bisnis, termasuk
+analisis pasar, riset konsumen, dan
+pemeliharaan prediktif, serta supply chan dan
+kendaraan komersil. Hal ini tidak hanya akan
+meningkatkan kemudahan pelacakan dan
+transparansi, tetapi juga akan meningkatkan
+hubungan supplier dan pelanggan.
+
+Digital supply network (DSN) — Rantai suplai
+akan ditransformasi sepenuhnya oleh jaringan suplai
+digital, yang memanfaatkan teknologi Artificial
+Intteligence (Al) dan sensor untuk menciptakan
+sistem rantai suplai yang sepenuhnya transparan,
+dapat dilacak, dan terhubung. Perusahaan akan dapat
+melihat setiap tautan dalam rantai secara real time,
+mengatasi komplikasi segera setelah mereka muncul,
+dan sangat terlihat dengan pemasok.
+
+SEMNASTEK UISU 2021
+
+ISBN : 978-623-7297-39-0
+
+5G Factories of the Future
+
+ 
+
+/application 1: Decentralized Production Line Networking ‘Apalcation 2
+
+hi
+ae
+
+Central Management system
+ay
+
+Remote Guidance
+with Smart Glasses
+
+‘Server
+
+7
+
+Expert @ Remote Side
+
+  
+    
+
+ 
+
+Application 3:
+
+Albased AOI Operator @ Field Side
+
+ 
+
+Three applications are verified in FoF:
+1. SGDecentraled Preducton Une Netwerkng
+2. Remote GuidancewithSmat Glisses
+
+nem as —
+GOERS 3 Atmed4015sem Creme
+
+ 
+
+Gambar 2. Masa Depan dengan Teknologi 5G
+
+o  E-procurement -— Proses_ seperti kontrol
+inventaris, penagihan, dan negosiasi harga
+yang secara tradisional ditangani
+
+menggunakan model manual akan ditangani
+oleh platform digital yang berkoordinasi
+dengan infrastruktur perusahaan melalui
+teknologi pintar. Ini tidak hanya akan
+mengurangi pemborosan, meningkatkan
+produksi, dan menurunkan biaya, tetapi juga
+akan meningkatkan kemampuan perusahaan
+untuk fokus pada lebih banyak perusahaan
+berbasis nilai seperti penilaian risiko dan
+analitik prediktif.
+
+o _Blockchain — Blockchain dapat merekam data,
+transaksi, dan cryptocurrency, pabrik di masa
+depan akan memiliki blockchain yang
+memainkan peran besar dalam manajemen
+data dan aplikasi rantai pasokan. Blockchain
+menawarkan transparansi penuh, yang akan
+membuat teknologi ini penting untuk
+kepatuhan regulasi, audit, dan bidang bisnis
+lainnya.
+
+4. Pabrik beroperasi tanpa batas
+
+Pabrik masa depan akan terhubung di hampir setiap
+cara, memungkinkan untuk operasi tanpa batas
+dalam berbagai skenario:
+
+° Robotika, AI, dan co-bot — Industri pabrik
+sudah menggunakan robotika, tetapi, di pabrik masa
+depan, mesin ini akan jauh lebih maju dan
+kolaboratif. Ketika kecerdasan buatan terus tumbuh,
+proses seperti desain, pemeliharaan prediktif, dan
+pemrograman tingkat lanjut akan menjadi lebih
+ramping dan instan. Selanjutnya, Al pada akhirnya
+akan mengembangkan kemampuan untuk mengikuti
+cara berpikir manusia dan lebih kreatif;
+
+° Virtual reality (VR) — Pelatihan industri
+dan pendidikan akan menjadi lebih komprehensif
+dengan penggunaan VR.
+
+System manufaktur terpadu
+
+Konsep Integrated Manufacturing System (IMS)
+merupakan konsep yang mengimplementasikan
+desain dan system manufaktur dalam suatu system
+manajemen. Tujuannya agar dapat melakukan
+pertukaran data secara otomatis. Bila sistem
+otomatis dan terkait secara keseluruhan di dalam
+ISBN : 978-623-7297-39-0
+
+Integrated Manufacturing System (IMS), akan sangat
+menguntungkan dibandingkan dengan
+individual automated fuctions, seperti :
+a. Mengurangi /ead time
+b. Meningkatkan fleksibilitas
+produksi dan jadwal produksi
+c. Mengurangi kebutuhan tenaga kerja
+d. Mengurangi level inventory material, work
+in process dan produk jadi
+e. Meningkatkan penggunaan sumber daya
+f.  Fleksibel terhadap perubahan permintaan.
+
+kapasitas
+
+Dalam konsep IMS, seluruh aktivitas dasar
+manufaktur diotomasi dan dihubungkan satu dengan
+yang lain. Aktivitas dasar manufaktur secara garis
+besar dapat dibagi 3 bagian, product design,
+manufacturing planning dan — manufacturing
+execution.
+
+Product design. Aktivitas ini meliputi
+mendefinisikan geometri baik spesifikasi part
+maupun bills of material (BOM). Informasi desain
+ini merupakan sumber kunci data untuk
+menggerakkan proses manufaktur.
+
+Manufacturing planning. Aktivitas ini dimulai
+dari merencanakan baik too/ maupun kapasitas yang
+dibutuhkan. Setelah itu baru merencanakan proses
+dimana hasilnya berupa rute proses, intruksi operator,
+program pengendalian fool.
+
+Manufacturing execution. _—Aktivitas ini
+merupakan bagian yang paling nyata dari sistem
+manufaktur. Tugas utamanya adalah mengontrol
+proses, too/ dan jadwal produksi dimana ini semua
+dilakukan oleh technical and logistical data system.
+Unjuk kerja operasi manufaktur dimonitor dan diukur.
+
+5.Implementasi Articial Intelegensi dalam system
+
+manufaktur terpadu
+
+Beberapa penerapan AI antara lain:
+
+1. Pemeriksaan kualitas
+
+*  Pabrik-pabrik yang membuat produk-produk
+
+yang kompleks, misalnya microchip dan
+circuit board memanfaatkan artificial
+intelligence untuk memeriksa jika ada error
+pada produk. Penggunaan teknologi tentu
+akan lebih andal ketimbang bergantung pada
+kejelian mata manusia. Biasanya di sini,
+layanan AI akan dikombinasikan dengan
+kamera  beresolusi tinggi. Dan _ ketika
+diintegrasikan dengan framework data
+processing berbasis cloud, tiap kesalahan
+(error) akan ditandai dan respons terhadap
+kesalahan itu segera dikoordinasikan.
+
+ 
+
+2. Manajemen
+
+* Pabrik cerdas LG memanfaatkan machine
+learning untuk mendiagnosis dan
+memprediksi kerusakan pada mesin sebelum
+menjadi masalah. Dengan cara ini, tim
+manajemen dapat memperkirakan jika terjadi
+kelambatan tak terduga karena isu semacam
+ini dapat menimbulkan biaya yang cukup
+mahal bagi perusahaan.
+
+3. Mendesain lebih cepat
+* Airbus memanfaatkan AI untuk menciptakan
+ribuan desain komponen hanya dengan
+memasukkan angka tertentu ke komputer.
+Generative design model memungkinkan
+Airbus mengurangi waktu para desainer
+Autodesk dalam menguji desain baru.
+
+4. Mengurangi dampak terhadap lingkungan
+
+Perusahaan asal Jerman ini membuat turbin
+gas yang dilengkapi ratusan sensor di dalamnya.
+Data dari sensor-sensor tersebut dimasukkan ke
+dalam sistem pemrosesan data berbasis Al. Sistem
+cerdas ini dapat mengatur katup bahan bakar agar
+turbin menghasilkan emisi serendah mungkin.
+
+5. Komunikasi supply chain : Perusahaan bahan
+Firolabs memelopori pemanfaatan machine
+learning untuk predictive communication
+
+6. Memanfaatkan data
+Hitachi sangat memberi perhatian pada tingkat
+produktivitas dan  produksi dari pabrik-
+pabriknya. Data-data yang sebelumnya tidak
+dimanfaatkan kemudian dikumpulkan dan
+diproses oleh sistem AI untuk memberikan
+insight bagi perusahaan.
+
+7. Mengurangi limbah
+* Sebuah perusahaan manufaktur baja
+menggunakan teknologi predictive
+communication untuk mengurangi limbah
+besi baja (mille scale). Perusahaan tersebut
+dapat menekan steel loss hingga mencapai
+3%.
+
+8. Integrasi
+
+* Machine learning berbasis cloud, seperti
+Azure Cognitive Services memungkinkan
+sektor manufaktur menyederhanakan
+komunikasi antarcabang. Data-data di lini
+produksi dapat dibuatkan kesimpulan dan
+dibagi pakai dengan kantor-kantor cabang
+untuk melakukan mekanisasi  terhadap
+fasilitas material, pemeliharaan, dan aktivitas
+operasional lainnya yang masih dijalankan
+secara manual.
+
+9. Meningkatkan customer service
+* Nokia memelopori implementasi AI untuk
+melayani pelanggan. Implementasi ini
+memungkinkan Nokia membuat prioritas
+terhadap isu-isu yang muncul dan
+mengidentifikasi pelanggan utama_ seeta
+
+keluhan-keluhan mereka.
+
+10. Memberikan dukungan pasca produksi
+* Sebuah perusahaan manufaktur lift dan
+tangga berjalan asal Finlandia menggunakan
+model 24/7 Connected Services untuk
+memantau cara pelanggan menggunakan
+produknya dan membagi informasi tersebut
+ke kliennya. Cara ini memungkinkan Cohn
+
+SEMNASTEK UISU 2021
+ISBN : 978-623-7297-39-0
+
+mengevaluasi kesalahan pada produk dan
+memperlihatkan kepada klien bagaimana
+produk bekerja.
+
+IV. KESIMPULAN
+
+1. Artificial Intelligence atau kecerdasan
+buatan adalah sistem komputer yang mampu
+melakukan tugas-tugas yang biasanya
+membutuhkan kecerdasan manusia.
+Teknologi ini dapat membuat keputusan
+dengan cara menganalisis dan menggunakan
+data yang tersedia di dalam sistem.
+
+2. Proses yang terjadi dalam Artificial
+Intelligence mencakup /earning, reasoning,
+dan se/f-correction.
+
+3. Implementasi AI pada pengerjaan manusia
+adalah memperoleh hasil kinerja optimal
+dengan waktu proses yang cepat dan hasil
+yang maksimal.
+
+DAFTAR PUSTAKA
+
+1]. https:/Awww.tiraya-technology.com/pabrik-
+
+masa-depan/
+2]. Sukaria Sinulingga, 2008, Pengantar Teknik
+
+Industri. Penerbit Graha  Ilmu. Yogyakarta
+55511 Indonesia.
+
+3]. Bagus Arthaya, I Ketut Gunarta. 2001, Otomasi,
+Sistem Produksi dan Computer Integrated
+Manufacturing. Penerbit Gima Widya Indonesia.
+4]. Prasetyo, B., & Trisyanti, U., 2018, Revolusi
+Industri 4.0 dan Tantangan Perubahan Sosial.
+IPTEK Journal of Proceedings Series, (5), 22-
+27.
+
+5]. Sangwan, K. S.. & Mittal, V. K. 2015, A
+bibliometric analysis of green manufacturing
+and similar frameworks. Management of
+Environmental Quality: An International
+Journal, 26(4), 566-587
+
+6]. Dornfeld, D. A. 2014, Moving Towards Green
+and Sustainable Manufacturing. International
+Journal of Precision Engineering and
+Manufacturing-Green Technology, 1(1), 63-66.
+7). Tseng, M., Shun, A., Chiu, F., Tan, R. R., &
+Siriban-manalang, A. B. 2013, Sustainable
+consumption and production for Asia
+sustainability through green design and
+practice. Journal of Cleaner Production, 40, 1-5
+https:/Awww.merdeka.com/jatim/artificial-
+intelligence-adalah-kecerdasan-entitas-ilmiah-
+pahami-pengertiannya-kIn.html?page=3
+
+ 
+
+ 
+
+SEMNASTEK UISU 2021 7
+

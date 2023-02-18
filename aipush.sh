@@ -7,4 +7,4 @@ git add *
 aicommits
 
 # Melakukan git push ke branch master
-git push origin master
+git push 
